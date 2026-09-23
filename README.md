@@ -18,6 +18,7 @@ that: pick a topic, find it in Studivo, write one file, open it again the next d
 | #   | Topic    | File                    |
 | --- | -------- | ----------------------- |
 | 01  | Hoisting | `topics/01-hoisting.md` |
+| 02  | Scope    | `topics/02-scope.md`    |
 
 Next topic: whatever I pick. Copy `template.md`.
 
