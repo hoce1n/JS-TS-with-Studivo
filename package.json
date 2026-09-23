@@ -2,7 +2,7 @@
   "name": "js-and-studivo",
   "version": "0.1.0",
   "private": true,
-  "description": "Learn JavaScript by studying real patterns in the Studivo codebase, backed by first-principles notes.",
+  "description": "One JavaScript concept at a time, studied in the Studivo codebase.",
   "packageManager": "pnpm@10.15.0",
   "scripts": {
     "format": "prettier --write .",
