@@ -84,3 +84,5 @@ closure or another reference can access the State, it may remain alive.
 | ------------------------------------------------------ | ------------------------------------------ | --------------------- | ----------------------------------------------------------------------------- |
 | Does `const` make an object immutable?                 | `const user = { age: 20 }; user.age = 21;` | The property changed. | `const` protects a binding from reassignment, not an object from mutation.    |
 | Does `let` contain `undefined` before its declaration? | `console.log(value); let value = 10;`      | A TDZ error occurred. | The binding exists conceptually, but it cannot be used before initialization. |
+
+Hoisting study: `topics/01-hoisting/01-javascript-hoisting.md`.
