@@ -38,3 +38,8 @@ REPL, the observed output, and any surprising behavior that changed or refined y
 | Question or hypothesis | REPL experiment | Observed result | Updated understanding |
 | ---------------------- | --------------- | --------------- | --------------------- |
 |                        |                 |                 |                       |
+
+## Studivo connection
+
+When this concept is ready to be grounded in production code, open a topic study under `topics/`
+using `topic-study-template.md`. Link the study here.

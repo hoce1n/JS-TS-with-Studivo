@@ -1,8 +1,8 @@
 {
-  "name": "js-and-programming",
+  "name": "js-and-studivo",
   "version": "0.1.0",
   "private": true,
-  "description": "A long-term learning project for building a deep mental model of JavaScript and its execution runtime.",
+  "description": "Learn JavaScript by studying real patterns in the Studivo codebase, backed by first-principles notes.",
   "packageManager": "pnpm@10.15.0",
   "scripts": {
     "format": "prettier --write .",

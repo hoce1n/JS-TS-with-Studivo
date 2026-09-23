@@ -1,21 +1,44 @@
-# JS-and-Programming
+# JS-and-Studivo
 
-## Project Vision
+Learn JavaScript by reading a real product: [Studivo](https://github.com/hoce1n/studivo).
 
-This repository documents a long-term effort to understand JavaScript deeply—not merely to memorize
-syntax, but to build an accurate mental model of how the language and its execution runtime behave.
+This repository used to be **JS-and-Programming** — a first-principles map from computational
+problems to JavaScript features. That map still matters. What changed is the method.
 
-The goal is to connect everyday JavaScript features to the computational problems they solve. Each
-topic is approached from first principles and tested through deliberate reasoning, handwritten code,
-and experiments in a personal REPL. Framework experience with React, TypeScript, Next.js, and Prisma
-provides practical context, but the focus here is the underlying language and runtime.
+I have started diving deep into JavaScript many times and given up halfway. Syntax-first study does
+not stick. Abstract mental models without a codebase also do not stick. This time every topic is
+studied in two passes:
 
-> The central question is not only “What is this syntax?” but also “What problem did this language
-> solve with this feature?”
+1. **Concept** — what problem the language is solving, independent of any app.
+2. **Studivo** — where that same behavior shows up in a multi-tenant study-hall product: seats,
+   memberships, staff, finance.
 
-## Core Framework
+> The question is no longer only “What is this syntax?” It is “Where does this actually happen in
+> Studivo, and what would break if I misunderstood it?”
 
-Every concept is studied through the following progression:
+## Why Studivo
+
+Studivo is not a toy. It is production software:
+
+- App: [app.studivo.ir](https://app.studivo.ir)
+- Site: [studivo.ir](https://studivo.ir)
+- Source: [github.com/hoce1n/studivo](https://github.com/hoce1n/studivo)
+
+Next.js, TypeScript, Prisma, and PostgreSQL sit on top of JavaScript. The language still decides how
+names resolve, when values exist, how work is scheduled, and how failures propagate. Studying those
+rules against Studivo keeps the learning attached to code I already care about.
+
+## Two Layers
+
+| Layer             | Role                                                                 | Lives in  |
+| ----------------- | -------------------------------------------------------------------- | --------- |
+| **Foundations**   | First-principles notes: problem, computational need, concept, syntax | `notes/`  |
+| **Topic studies** | One JavaScript topic, explained, then proven with Studivo examples   | `topics/` |
+
+Foundations answer _why the language has this idea_. Topic studies answer _where I have already used
+it, often without noticing_.
+
+The original progression is unchanged:
 
 | Layer                  | Guiding question                                                 |
 | ---------------------- | ---------------------------------------------------------------- |
@@ -24,56 +47,57 @@ Every concept is studied through the following progression:
 | **Concept**            | What general programming idea satisfies that need?               |
 | **Language Feature**   | How does JavaScript model or implement the concept?              |
 | **Syntax**             | How is that feature expressed in JavaScript code?                |
+| **Studivo**            | Where does this appear in the Studivo repository, and why?       |
 
-Syntax is therefore the final expression of understanding, not the starting point. Notes also
-include personal explanations and REPL verification so that claims about behavior are checked
-against observation rather than accepted passively.
+## How a Topic Is Studied
 
-## Learning and Documentation Workflow
+1. Pick one JavaScript topic (hoisting, closures, `this`, promises, …).
+2. Write or receive a conceptual note for that topic.
+3. Search the Studivo repo for matching patterns — not toy snippets, production code.
+4. Compile those findings into a documented Markdown file under `topics/`.
+5. Verify surprising claims in the personal REPL at
+   [runtimejs.hoce1n.ir](https://runtimejs.hoce1n.ir/).
 
-Daily learning notes belong in the relevant topic directory under `notes/`. Reusable structures
-belong in `templates/`. When a topic cluster is complete, a polished narrative can be prepared under
-`drafts/medium/`, while condensed visual-content drafts can be prepared under `drafts/instagram/`.
+Reusable shapes live in `templates/`. Polished writing can later move to `drafts/medium/` or
+`drafts/instagram/`.
 
-The learner writes the explanations and code. Review focuses on correctness, precision, hidden
-assumptions, and the difference between observed behavior and mental-model claims.
+## Progress
 
-## Progress Tracking
+| Topic                        | Status                  | Notes / study                |
+| ---------------------------- | ----------------------- | ---------------------------- |
+| **State & Memory**           | Foundations in progress | `notes/01-state-and-memory/` |
+| **Hoisting**                 | Documented              | `topics/01-hoisting/`        |
+| **Control Flow**             | Not started             | —                            |
+| **Data Organization**        | Not started             | —                            |
+| **Abstraction**              | Not started             | —                            |
+| **Composition**              | Not started             | —                            |
+| **Errors & Failure**         | Not started             | —                            |
+| **Concurrency & Asynchrony** | Not started             | —                            |
+| **Communication & I/O**      | Not started             | —                            |
+| **Identity & Scope**         | Not started             | —                            |
+| **Execution Runtime**        | Not started             | —                            |
 
-The table below is the initial map of the conceptual journey. It is intentionally broad and can be
-refined as the study progresses.
-
-| Core topic                   | Central computational question                                                               | Status      | Primary notes                                              |
-| ---------------------------- | -------------------------------------------------------------------------------------------- | ----------- | ---------------------------------------------------------- |
-| **State & Memory**           | How can a program preserve, update, and retrieve information over time?                      | In progress | [`notes/01-state-and-memory/`](notes/01-state-and-memory/) |
-| **Control Flow**             | How can a program choose actions, repeat work, and determine execution order?                | Not started | —                                                          |
-| **Data Organization**        | How can related values be represented, grouped, and accessed effectively?                    | Not started | —                                                          |
-| **Abstraction**              | How can complexity be hidden while useful behavior remains available?                        | Not started | —                                                          |
-| **Composition**              | How can smaller behaviors be combined into larger systems?                                   | Not started | —                                                          |
-| **Errors & Failure**         | How can a program detect, represent, and recover from things going wrong?                    | Not started | —                                                          |
-| **Concurrency & Asynchrony** | How can a program coordinate work that does not complete in a single uninterrupted sequence? | Not started | —                                                          |
-| **Communication & I/O**      | How can a program exchange information with the outside world?                               | Not started | —                                                          |
-| **Identity & Scope**         | How can a program determine which value or resource a name refers to?                        | Not started | —                                                          |
-| **Execution Runtime**        | How does the JavaScript runtime evaluate code and manage execution resources?                | Not started | —                                                          |
+Hoisting is the first topic study: `topics/01-hoisting/01-javascript-hoisting.md`.
 
 ## Repository Structure
 
 ```text
 .
-├── drafts/
-│   ├── instagram/       # Condensed visual-content drafts
-│   └── medium/          # Polished topic-cluster drafts
-├── notes/
+├── notes/                 # First-principles conceptual notes
 │   └── 01-state-and-memory/
-│       └── .gitkeep
+├── topics/                # JS topics grounded in Studivo
+│   └── 01-hoisting/
+├── drafts/
+│   ├── instagram/
+│   └── medium/
 ├── templates/
-│   └── concept-template.md
+│   ├── concept-template.md
+│   └── topic-study-template.md
 └── README.md
 ```
 
-## References and Tools
+## References
 
-[MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) is used as a parallel
-reference. Runtime behavior is explored with the personal REPL at
-[runtimejs.hoce1n.ir](https://runtimejs.hoce1n.ir/). Professional application context comes from
-work with Next.js 15 and TypeScript.
+- [Studivo source](https://github.com/hoce1n/studivo)
+- [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [runtimejs](https://runtimejs.hoce1n.ir/)
