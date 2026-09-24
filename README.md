@@ -27,6 +27,7 @@ track, always checked against the same codebase.
 | 04  | [Objects](js/04-objects.md)                               |
 | 05  | [Prototype](js/05-prototype.md)                           |
 | 06  | [Prototypal inheritance](js/06-prototypal-inheritance.md) |
+| 07  | [Built-in objects](js/07-built-in-objects.md)             |
 
 Copy [`js/template.md`](js/template.md) for the next JS topic.
 
