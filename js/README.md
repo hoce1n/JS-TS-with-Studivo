@@ -12,3 +12,4 @@ Copy [`template.md`](template.md) for a new topic.
 | 04  | [Objects](04-objects.md)                               |
 | 05  | [Prototype](05-prototype.md)                           |
 | 06  | [Prototypal inheritance](06-prototypal-inheritance.md) |
+| 07  | [Built-in objects](07-built-in-objects.md)             |
