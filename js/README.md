@@ -10,3 +10,4 @@ Copy [`template.md`](template.md) for a new topic.
 | 02  | [Scope](02-scope.md)           |
 | 03  | [Primitives](03-primitives.md) |
 | 04  | [Objects](04-objects.md)       |
+| 05  | [Prototype](05-prototype.md)   |
