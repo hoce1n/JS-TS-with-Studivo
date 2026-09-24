@@ -36,6 +36,7 @@ Copy [`js/template.md`](js/template.md) for the next JS topic.
 | #   | Topic                                                         |
 | --- | ------------------------------------------------------------- |
 | 01  | [TypeScript vs JavaScript](ts/01-typescript-vs-javascript.md) |
+| 02  | [JS interoperability](ts/02-js-interoperability.md)           |
 
 Copy [`ts/template.md`](ts/template.md) for the next TS topic.
 
