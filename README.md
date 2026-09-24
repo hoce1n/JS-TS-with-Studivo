@@ -25,6 +25,7 @@ track, always checked against the same codebase.
 | 02  | [Scope](js/02-scope.md)           |
 | 03  | [Primitives](js/03-primitives.md) |
 | 04  | [Objects](js/04-objects.md)       |
+| 05  | [Prototype](js/05-prototype.md)   |
 
 Copy [`js/template.md`](js/template.md) for the next JS topic.
 
