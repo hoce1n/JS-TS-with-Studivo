@@ -29,7 +29,11 @@ Copy [`js/template.md`](js/template.md) for the next JS topic.
 
 ## TypeScript
 
-No topics yet. Copy [`ts/template.md`](ts/template.md) for the first one.
+| #   | Topic                                                         |
+| --- | ------------------------------------------------------------- |
+| 01  | [TypeScript vs JavaScript](ts/01-typescript-vs-javascript.md) |
+
+Copy [`ts/template.md`](ts/template.md) for the next TS topic.
 
 ## Links
 
