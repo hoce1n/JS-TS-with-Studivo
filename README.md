@@ -15,11 +15,11 @@ that: pick a topic, find it in Studivo, write one file, open it again the next d
 
 ## Topics
 
-| #   | Topic      | File                      |
-| --- | ---------- | ------------------------- |
-| 01  | Hoisting   | `topics/01-hoisting.md`   |
-| 02  | Scope      | `topics/02-scope.md`      |
-| 03  | Primitives | `topics/03-primitives.md` |
+| #   | Topic                                 |
+| --- | ------------------------------------- |
+| 01  | [Hoisting](topics/01-hoisting.md)     |
+| 02  | [Scope](topics/02-scope.md)           |
+| 03  | [Primitives](topics/03-primitives.md) |
 
 Next topic: whatever I pick. Copy `template.md`.
 
