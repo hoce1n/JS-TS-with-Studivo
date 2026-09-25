@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "markdownlint-cli": "^0.47.0",
-    "prettier": "^3.6.2",
+    "prettier": "^3.6.2"
   },
   "module": "index.ts",
   "type": "module",
