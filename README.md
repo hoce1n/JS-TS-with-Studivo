@@ -34,10 +34,11 @@ Copy [`js/template.md`](js/template.md) for the next JS topic.
 
 ## TypeScript
 
-| #   | Topic                                                         |
-| --- | ------------------------------------------------------------- |
-| 01  | [TypeScript vs JavaScript](ts/01-typescript-vs-javascript.md) |
-| 02  | [JS interoperability](ts/02-js-interoperability.md)           |
+| #   | Topic                                                                     |
+| --- | ------------------------------------------------------------------------- |
+| 01  | [TypeScript vs JavaScript](ts/01-typescript-vs-javascript.md)             |
+| 02  | [JS interoperability](ts/02-js-interoperability.md)                       |
+| 03  | [Installation and configuration](ts/03-installation-and-configuration.md) |
 
 Copy [`ts/template.md`](ts/template.md) for the next TS topic.
 
