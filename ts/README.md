@@ -12,3 +12,4 @@ Copy [`template.md`](template.md) for a new topic.
 | 01  | [TypeScript vs JavaScript](01-typescript-vs-javascript.md)             |
 | 02  | [JS interoperability](02-js-interoperability.md)                       |
 | 03  | [Installation and configuration](03-installation-and-configuration.md) |
+| 04  | [Types](04-types.md)                                                   |
