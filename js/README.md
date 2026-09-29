@@ -15,3 +15,4 @@ Copy [`template.md`](template.md) for a new topic.
 | 07  | [Built-in objects](07-built-in-objects.md)             |
 | 08  | [Type casting](08-type-casting.md)                     |
 | 09  | [Data structures](09-data-structures.md)               |
+| 10  | [Arrays](10-arrays.md)                                 |
