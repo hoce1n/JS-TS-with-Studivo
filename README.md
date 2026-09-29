@@ -31,6 +31,7 @@ track, always checked against the same codebase.
 | 08  | [Type casting](js/08-type-casting.md)                     |
 | 09  | [Data structures](js/09-data-structures.md)               |
 | 10  | [Arrays](js/10-arrays.md)                                 |
+| 11  | [Set and Map](js/11-set-and-map.md)                       |
 
 Copy [`js/template.md`](js/template.md) for the next JS topic.
 
