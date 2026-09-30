@@ -1,8 +1,9 @@
 # JavaScript Arrays — Studivo Walkthrough
 
-[Data Structures](https://github.com/hoce1n/JS-TS-with-Studivo/blob/main/js/09-data-structures.md) was the **map**: indexed vs keyed vs structured.
-This note is the **territory** — arrays as objects, index/`length`, create, mutate vs copy, search,
-iterate, sort, spread, nested lists, and the mistakes that show up at a front desk.
+[Data Structures](https://github.com/hoce1n/JS-TS-with-Studivo/blob/main/js/09-data-structures.md)
+was the **map**: indexed vs keyed vs structured. This note is the **territory** — arrays as objects,
+index/`length`, create, mutate vs copy, search, iterate, sort, spread, nested lists, and the
+mistakes that show up at a front desk.
 
 Set and Map stay in the overview until their own file. Here the question is only: **ordered slots
 `0 … length-1`.**
