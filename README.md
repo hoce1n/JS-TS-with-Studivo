@@ -32,6 +32,7 @@ track, always checked against the same codebase.
 | 09  | [Data structures](js/09-data-structures.md)               |
 | 10  | [Arrays](js/10-arrays.md)                                 |
 | 11  | [Set and Map](js/11-set-and-map.md)                       |
+| 12  | [Equality comparisons](js/12-equality-comparisons.md)     |
 
 Copy [`js/template.md`](js/template.md) for the next JS topic.
 
