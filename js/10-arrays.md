@@ -1,6 +1,6 @@
 # JavaScript Arrays — Studivo Walkthrough
 
-`docs/javascript-data-structures-in-studivo.md` was the **map**: indexed vs keyed vs structured.
+[Data Structures](https://github.com/hoce1n/JS-TS-with-Studivo/blob/main/js/09-data-structures.md) was the **map**: indexed vs keyed vs structured.
 This note is the **territory** — arrays as objects, index/`length`, create, mutate vs copy, search,
 iterate, sort, spread, nested lists, and the mistakes that show up at a front desk.
 
