@@ -33,6 +33,7 @@ track, always checked against the same codebase.
 | 10  | [Arrays](js/10-arrays.md)                                 |
 | 11  | [Set and Map](js/11-set-and-map.md)                       |
 | 12  | [Equality comparisons](js/12-equality-comparisons.md)     |
+| 13  | [Loops and iteration](js/13-loops-and-iteration.md)       |
 
 Copy [`js/template.md`](js/template.md) for the next JS topic.
 
