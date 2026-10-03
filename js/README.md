@@ -18,3 +18,4 @@ Copy [`template.md`](template.md) for a new topic.
 | 10  | [Arrays](10-arrays.md)                                 |
 | 11  | [Set and Map](11-set-and-map.md)                       |
 | 12  | [Equality comparisons](12-equality-comparisons.md)     |
+| 13  | [Loops and iteration](13-loops-and-iteration.md)       |
