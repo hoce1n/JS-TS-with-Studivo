@@ -1,21 +1,24 @@
 # JS, TS, and Studivo
 
-Learn **JavaScript** and **TypeScript** by reading one product:
+Learn **JavaScript**, **TypeScript**, and **Web APIs** by reading one product:
 [Studivo](https://github.com/hoce1n/studivo).
 
-Studivo is TypeScript. TypeScript is JavaScript plus types. So every topic is one file, in one
-track, always checked against the same codebase.
+Studivo is TypeScript. TypeScript is JavaScript plus types. The browser, the document, and the
+worker are host APIs on top of that. Every topic is one file, in one track, always checked against
+the same codebase.
 
 - Runtime behavior lives in [`js/`](js/)
 - Type-system behavior lives in [`ts/`](ts/)
+- Host APIs live in [`web-api/`](web-api/)
 
 ## Everyday loop
 
-1. Pick a track: JS or TS.
+1. Pick a track: JS, TS, or Web API.
 2. Pick one topic.
 3. Search Studivo for it.
 4. Copy that track’s `template.md`.
-5. Write until I can predict what runs, what throws, or what the compiler rejects.
+5. Write until I can predict what runs, what throws, what the compiler rejects, or what the host
+   does.
 
 ## JavaScript
 
@@ -48,10 +51,19 @@ Copy [`js/template.md`](js/template.md) for the next JS topic.
 
 Copy [`ts/template.md`](ts/template.md) for the next TS topic.
 
+## Web APIs
+
+| #   | Topic                    |
+| --- | ------------------------ |
+| 01  | [DOM](web-api/01-dom.md) |
+
+Copy [`web-api/template.md`](web-api/template.md) for the next Web API topic.
+
 ## Links
 
 - [Studivo](https://github.com/hoce1n/studivo)
 - [app.studivo.ir](https://app.studivo.ir)
 - [MDN JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [MDN Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 - [runtimejs](https://runtimejs.hoce1n.ir/)
