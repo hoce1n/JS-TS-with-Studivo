@@ -2,7 +2,7 @@
   "name": "js-ts-with-studivo",
   "version": "0.1.0",
   "private": true,
-  "description": "JavaScript and TypeScript, one topic at a time, studied in the Studivo codebase.",
+  "description": "JavaScript, TypeScript, and Web APIs, one topic at a time, studied in the Studivo codebase.",
   "packageManager": "pnpm@10.15.0",
   "scripts": {
     "format": "prettier --write .",
