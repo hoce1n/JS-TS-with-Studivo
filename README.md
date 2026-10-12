@@ -19,21 +19,22 @@ track, always checked against the same codebase.
 
 ## JavaScript
 
-| #   | Topic                                                     |
-| --- | --------------------------------------------------------- |
-| 01  | [Hoisting](js/01-hoisting.md)                             |
-| 02  | [Scope](js/02-scope.md)                                   |
-| 03  | [Primitives](js/03-primitives.md)                         |
-| 04  | [Objects](js/04-objects.md)                               |
-| 05  | [Prototype](js/05-prototype.md)                           |
-| 06  | [Prototypal inheritance](js/06-prototypal-inheritance.md) |
-| 07  | [Built-in objects](js/07-built-in-objects.md)             |
-| 08  | [Type casting](js/08-type-casting.md)                     |
-| 09  | [Data structures](js/09-data-structures.md)               |
-| 10  | [Arrays](js/10-arrays.md)                                 |
-| 11  | [Set and Map](js/11-set-and-map.md)                       |
-| 12  | [Equality comparisons](js/12-equality-comparisons.md)     |
-| 13  | [Loops and iteration](js/13-loops-and-iteration.md)       |
+| #   | Topic                                                               |
+| --- | ------------------------------------------------------------------- |
+| 01  | [Hoisting](js/01-hoisting.md)                                       |
+| 02  | [Scope](js/02-scope.md)                                             |
+| 03  | [Primitives](js/03-primitives.md)                                   |
+| 04  | [Objects](js/04-objects.md)                                         |
+| 05  | [Prototype](js/05-prototype.md)                                     |
+| 06  | [Prototypal inheritance](js/06-prototypal-inheritance.md)           |
+| 07  | [Built-in objects](js/07-built-in-objects.md)                       |
+| 08  | [Type casting](js/08-type-casting.md)                               |
+| 09  | [Data structures](js/09-data-structures.md)                         |
+| 10  | [Arrays](js/10-arrays.md)                                           |
+| 11  | [Set and Map](js/11-set-and-map.md)                                 |
+| 12  | [Equality comparisons](js/12-equality-comparisons.md)               |
+| 13  | [Loops and iteration](js/13-loops-and-iteration.md)                 |
+| 14  | [Control flow and exceptions](js/14-control-flow-and-exceptions.md) |
 
 Copy [`js/template.md`](js/template.md) for the next JS topic.
 

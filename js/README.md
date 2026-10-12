@@ -4,18 +4,19 @@ What the runtime does in Studivo. No types yet — that is the [`ts/`](../ts/) t
 
 Copy [`template.md`](template.md) for a new topic.
 
-| #   | Topic                                                  |
-| --- | ------------------------------------------------------ |
-| 01  | [Hoisting](01-hoisting.md)                             |
-| 02  | [Scope](02-scope.md)                                   |
-| 03  | [Primitives](03-primitives.md)                         |
-| 04  | [Objects](04-objects.md)                               |
-| 05  | [Prototype](05-prototype.md)                           |
-| 06  | [Prototypal inheritance](06-prototypal-inheritance.md) |
-| 07  | [Built-in objects](07-built-in-objects.md)             |
-| 08  | [Type casting](08-type-casting.md)                     |
-| 09  | [Data structures](09-data-structures.md)               |
-| 10  | [Arrays](10-arrays.md)                                 |
-| 11  | [Set and Map](11-set-and-map.md)                       |
-| 12  | [Equality comparisons](12-equality-comparisons.md)     |
-| 13  | [Loops and iteration](13-loops-and-iteration.md)       |
+| #   | Topic                                                            |
+| --- | ---------------------------------------------------------------- |
+| 01  | [Hoisting](01-hoisting.md)                                       |
+| 02  | [Scope](02-scope.md)                                             |
+| 03  | [Primitives](03-primitives.md)                                   |
+| 04  | [Objects](04-objects.md)                                         |
+| 05  | [Prototype](05-prototype.md)                                     |
+| 06  | [Prototypal inheritance](06-prototypal-inheritance.md)           |
+| 07  | [Built-in objects](07-built-in-objects.md)                       |
+| 08  | [Type casting](08-type-casting.md)                               |
+| 09  | [Data structures](09-data-structures.md)                         |
+| 10  | [Arrays](10-arrays.md)                                           |
+| 11  | [Set and Map](11-set-and-map.md)                                 |
+| 12  | [Equality comparisons](12-equality-comparisons.md)               |
+| 13  | [Loops and iteration](13-loops-and-iteration.md)                 |
+| 14  | [Control flow and exceptions](14-control-flow-and-exceptions.md) |
